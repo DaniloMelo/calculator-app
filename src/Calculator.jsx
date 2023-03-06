@@ -1,10 +1,11 @@
-import './Calculator.css'
 import React from 'react'
+import './Calculator.css'
+import Display from './components/Display'
 
 export default props => {
     return (
         <div className='calculator'>
-            {console.log(props.teste)}
+            <Display value={100} />
         </div>
     )
 }
